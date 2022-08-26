@@ -1,0 +1,10 @@
+prefix=/opt/hisi-linux-nptl/arm-hisiv100-linux/lib
+exec_prefix=/opt/hisi-linux-nptl/arm-hisiv100-linux/lib
+libdir=${exec_prefix}/lib
+includedir=/opt/hisi-linux-nptl/arm-hisiv100-linux/lib/include
+
+Name: libnl
+Description: Convenience library for netlink sockets
+Version: 1.1.4
+Libs: -L${libdir} -lnl
+Cflags:
